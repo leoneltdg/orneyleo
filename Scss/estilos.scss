@@ -1,0 +1,465 @@
+$FuentePrincipal: 'Courier Prime', monospace;
+$FuenteSecundaria: flood-std, sans-serif;
+
+body{
+    font-size: 62.5%;
+    font-family: $FuentePrincipal;
+}
+
+.row{
+    margin: 0%;
+}
+
+#Contenedor1{
+    height: 670px;
+    width: 100%;
+    background-image: url("../Css/Css-imagenes/Casamiento\ playa.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.Contenedor1-Texto{
+    font-family: $FuenteSecundaria;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+}
+
+#ContenedorNav{
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    padding: 0%;
+}
+
+#Navbar{
+    background-color: #7ce6df;
+    width: 100%;
+    height: 55px;
+    display: flex;
+}
+
+#Navbar-fila{
+    list-style: none;
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#Navbar-fila-lista-item{
+    color: #785e48;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+#Navbar-fila-lista-item:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+#Contenedor2{
+    background-image: url("../Css/Css-imagenes/fondoblanco.jpg");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contenedor2-Contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 35%;
+}
+
+.Contenedor2-Titulo{
+    font-family: $FuenteSecundaria;
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+.Contenedor2-Parrafo{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.Mapa{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.fa-map-marker-alt{
+    font-size: 40px;
+    color:#7ce6df
+}
+
+.Contenedor2-Parrafo1{
+    width: 50%;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#Contenedor3{
+    width: 100%;
+    height: 400px;
+    background-image: url("../Css/Css-imagenes/Casamiento.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#Contenedor4{
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contenedor4-Contenedor{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;    
+    padding: 5px;   
+}
+
+.Rama{
+    background-image: url("../Css/Css-imagenes/eternidad.png");
+    background-size: contain;
+    background-repeat: space;
+    width: 100%;
+    height: 30%;
+    background-position: center;
+    margin: 0 10px 0 10px;
+}
+
+.Contenedor4-Texto{
+    font-size: 2.6rem;
+    font-family: $FuenteSecundaria;
+    width: auto;
+}
+
+.Contenedor4-Contenedor2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Contenedor-Informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.Contenedor-Informacion-Parrafo{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.Contenedor4-Parrafo{
+    width: 30%;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+}
+
+#Imagen-Caballito{
+    width: 300px;
+}
+
+#Contenedor5{
+    background-image: url("../Css/Css-imagenes/fondoblanco.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Contenedor5-Contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.Contenedor5-Parrafo{
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.Contenedor-cuentas{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.Contenedor-cuentas-titulo{
+    font-size: 1.2rem;
+}
+
+#Contenedor6{
+    height: 300px;
+    background-color: #7ce6df;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#Contenedor6-icono{
+    background-color: #7ce6df;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.Contenedor6-Parrafo{
+    width: 70%;
+    color: #785e48;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.Icono{
+    width: 200px;
+    height: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+    #Contenedor2,
+    #Contenedor4,
+    #Contenedor5,
+    #Contenedor6,
+    .Contenedor1-Texto,
+    .Contenedor2-Contenedor,
+    .Contenedor2-Titulo,
+    .Contenedor2-Parrafo,
+    .Contenedor4-Texto,
+    .Rama,
+    .Contenedor4-Contenedor2,
+    .Contenedor-Informacion,
+    .Contenedor-Informacion-Parrafo,
+    .Contenedor4-Parrafo,
+    .Contenedor5-Contenedor,
+    .Contenedor5-Parrafo,
+    .Contenedor-cuentas,
+    .Contenedor-cuentas-titulo,
+    #Contenedor6-icono,
+    .Contenedor6-Parrafo{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #ContenedorNav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    #Navbar-fila{
+        list-style: none;
+        display: inline-flex;
+        width: 100%;
+        height: auto;   
+        background-color: #7ce6df;
+    }
+
+    #TextoNav{
+        font-family: $FuentePrincipal;
+        color: whitesmoke;
+        margin: 0 0 0 10px;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: whitesmoke;
+        padding: 3px 8px 3px 8px;
+        margin-right: 10px;
+      }
+    
+    .navbar-toggler-icon{
+        font-size: 1.1rem;
+    }
+
+    .navbar-light .navbar-toggler  .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    .Line{
+        color:grey;
+        width: 100%;
+        margin: 0%;
+    }
+
+    #Contenedor1{
+        width: 100%;
+        height: 450px;
+    }
+
+    .Contenedor1-Texto{
+        width: 100%;
+        font-size: 2.4rem;
+    }
+
+    .Contenedor2-Parrafo1{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    #Contenedor3{
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        background-attachment: inherit;
+    }
+  
+    .Contenedor4-Contenedor{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Rama{
+        width: 100%;
+    }
+
+    .Contenedor4-Texto{
+        width: auto;
+    }
+
+    #Imagen-Caballito{
+        width: 200px;
+    }
+
+    .Icono{
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    #Contenedor2,
+    #Contenedor4,
+    #Contenedor5,
+    #Contenedor6,
+    .Contenedor1-Texto,
+    .Contenedor2-Titulo,
+    .Contenedor2-Parrafo,
+    .Contenedor4-Texto,
+    .Rama,
+    .Contenedor4-Contenedor2,
+    .Contenedor-Informacion-Parrafo,
+    .Contenedor5-Contenedor,
+    .Contenedor-cuentas,
+    .Contenedor-cuentas-titulo,
+    #Contenedor6-icono{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #Contenedor1{
+        width: 100%;
+        height: 550px;
+    }
+
+    .Contenedor1-Texto{
+        width: 100%;
+        font-size: 4rem;
+    }
+
+    .Contenedor2-Parrafo1{
+        width: 70%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .Contenedor2-Contenedor,
+    .Contenedor-Informacion,
+    .Contenedor4-Parrafo,    
+    .Contenedor5-Parrafo,
+    .Contenedor6-Parrafo{
+        width: 70%;
+        height: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #Contenedor3{
+        width: 100%;
+        height: 350px;
+    }
+  
+    .Contenedor4-Contenedor{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Rama{
+        width: 100%;
+    }
+
+    .Contenedor4-Texto{
+        width: auto;
+    }
+
+    #Imagen-Caballito{
+        width: 250px;
+    }
+
+    .Icono{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media only screen and ( min-width: 768px ) {
+    #TextoNav{
+        display: none;
+    }
+}
+
+
